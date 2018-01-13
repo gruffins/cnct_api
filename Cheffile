@@ -1,0 +1,13 @@
+site "http://community.opscode.com/api/v1"
+
+cookbook 'apt'
+cookbook 'build-essential'
+cookbook 'ruby_build'
+cookbook 'redisio'
+cookbook 'memcached', '1.7.2'
+cookbook 'postgresql', git: 'https://github.com/ChowOps/chef-postgresql'
+cookbook 'ruby_rbenv', '1.0.1'
+cookbook 'packages'
+cookbook 'resolver'
+cookbook 'heroku-toolbelt'
+cookbook 'nodejs'
